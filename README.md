@@ -15,11 +15,11 @@ Portfólio com foco em navegação rápida e objetiva.
 - **Framer Motion**
 - **Lucide React**
 
-### Pré-requisitos
+## Pré-requisitos
 
 - Node.js (v18+)
 
-### Instalação
+## Instalação
 
 ```bash
 git clone https://github.com/caiolucasbittencourt/portfolio.git
@@ -28,13 +28,13 @@ npm install
 npm run dev
 ```
 
-### Scripts
+## Scripts
 
 - `npm run dev` inicia o ambiente de desenvolvimento.
 - `npm run build` gera a versão de produção.
 - `npm run start` executa a aplicação em modo produção.
 - `npm run lint` verifica padrões de código com ESLint.
 
-### Licença
+## Licença
 
 Este projeto está licenciado sob a licença [MIT](LICENSE).
