@@ -49,7 +49,7 @@ export default function Header() {
                 src="/me.png"
                 alt="Caio Bittencourt"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
               />
             </button>
             <Link
@@ -176,12 +176,12 @@ export default function Header() {
               </button>
 
               {/* Photo */}
-              <div className="relative h-44 w-44 overflow-hidden rounded-2xl border border-white/10 shadow-2xl sm:h-56 sm:w-56">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full border border-white/10 shadow-2xl sm:h-56 sm:w-56">
                 <Image
                   src="/me.png"
                   alt={SITE_CONFIG.name}
                   fill
-                  className="object-cover"
+                  className="object-cover object-top"
                   priority
                 />
               </div>
