@@ -4,21 +4,15 @@ export default function Hero() {
   return (
     <section className="hover-card rounded-xl p-8 text-justify">
       <p className="text-lg leading-relaxed font-light text-gray-500 md:text-xl">
-        <span className="font-medium text-white">Desenvolvedor Full-stack</span>{" "}
-        e{" "}
-        <span className="font-medium text-white">
-          graduando em Análise e Desenvolvimento de Sistemas
-        </span>
-        , capacitado para atuar em todas as etapas de um projeto de software.
+        <span className="font-medium text-white">Software Engineer</span>
+        &nbsp;focado no ecossistema{" "}
+        <span className="font-medium text-white">JavaScript/TypeScript</span>,
+        com experiência na construção de aplicações web escaláveis de ponta a
+        ponta.
         <br />
         <br />
-        Focado no ecossistema{" "}
-        <span className="font-medium text-white">
-          JavaScript/TypeScript (React, Node.js)
-        </span>
-        , construo aplicações web de ponta a ponta: desde a criação de
-        interfaces modernas para o usuário até a estruturação de servidores,
-        APIs e bancos de dados (SQL e NoSQL).
+        Atuo desde a ideação de produtos e interfaces até a modelagem de dados,
+        arquitetura de APIs e configuração de infraestrutura.
       </p>
     </section>
   );
