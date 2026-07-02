@@ -80,6 +80,12 @@ export default function Header() {
             >
               Projetos
             </Link>
+            <Link
+              href="/blog"
+              className="text-sm text-gray-400 transition-colors hover:text-white"
+            >
+              Blog
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -142,6 +148,13 @@ export default function Header() {
                   className="text-lg text-gray-400 transition-colors hover:text-white"
                 >
                   Projetos
+                </Link>
+                <Link
+                  href="/blog"
+                  onClick={() => setIsMenuOpen(false)}
+                  className="text-lg text-gray-400 transition-colors hover:text-white"
+                >
+                  Blog
                 </Link>
               </nav>
             </motion.div>
